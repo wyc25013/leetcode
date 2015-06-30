@@ -68,7 +68,7 @@ public:
 class Solution {
 public:
     int maxSubArray(vector<int>& nums) {
-        bool ifnega = nums[0] <= 0 ? true : false;
+        //main idea here: once localsum < 0, then reset it to the cur num[i]
     	int sum = 0;
     	int maxsum = INT_MIN;
     	for(int i = 0; i < nums.size(); i++){
