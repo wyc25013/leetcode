@@ -33,7 +33,7 @@ public:
 
 		/* solution 3 
 		 * Boyer-Moore Majority Vote Algorithm
-		int j,k,count=0;
+		int j,count=0;
 		j=nums[0];
 		for(int i=0;i<nums.size();i++){
 		    if(count==0) j=nums[i];
