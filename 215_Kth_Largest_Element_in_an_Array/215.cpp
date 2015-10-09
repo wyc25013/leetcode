@@ -10,7 +10,7 @@ public:
 
         /* quicksort like solution
         int ret; int len = nums.size();
-        qshelper(nums,k,0,len-1,ret);
+        qshelper(nums,k,0,len-1,&ret);
         return ret;
         */
 
